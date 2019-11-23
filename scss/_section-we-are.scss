@@ -1,0 +1,42 @@
+.ba-section-we-are {
+  padding: 120px 0;
+  background: url(../img/we-are/bg.jpg) 50%;
+  background-size: cover;
+
+  .ba-section-header {
+    margin-bottom: 47px;
+  }
+
+  .ba-section-content {
+    letter-spacing: 0.5px;
+    margin-bottom: 42px;
+
+    p {
+      margin-bottom: 27px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.ba-we-are {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ba-we-are__content {
+  width: 49.09%;
+  padding-top: 70px;
+}
+
+.ba-we-are__imgs {
+  display: flex;
+  flex-direction: column;
+  width: 43%;
+
+  :nth-child(even) {
+    align-self: flex-end;
+  }
+}

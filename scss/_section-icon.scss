@@ -1,0 +1,36 @@
+.ba-section-icon {
+  padding: 100px 0 77px;
+  background-color: #333333;
+  position: relative;
+
+  .ba-icon__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    svg {
+      margin-bottom: -9px;
+    }
+
+    p {
+      line-height: 1;
+    }
+  }
+}
+
+.ba-zoom {
+  fill: #5474fd;
+}
+
+.ba-check {
+  fill: #ff6363;
+}
+
+.ba-finger-up {
+  fill: #00a2ff;
+}
+
+.ba-icon-subscribe {
+  font-family: $alt-font-family;
+  font-size: 36px;
+}

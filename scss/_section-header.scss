@@ -1,0 +1,35 @@
+.ba-header {
+  background-color: $primary-color;
+  padding: 22px 0 20px;
+}
+
+.ba-header-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  nav {
+    min-width: 47.72%;
+  }
+}
+
+.ba-logo {
+  font-family: $body-font-family;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.ba-header-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+
+  a:hover {
+    color: red;
+  }
+}
